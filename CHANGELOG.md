@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- N/A
+
+## [1.1.0] - 2026-10-04
+
 ### Added
 
 - `Test-PublicFile` writes verbose output (vNext prerelease test).
