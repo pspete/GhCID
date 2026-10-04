@@ -2,7 +2,9 @@
 
 ## Unreleased
 
-- N/A
+### Fixed
+
+- Prerelease numbering counts GitHub tags after a Manual Deployment (pspete.Build test).
 
 ## [1.1.0] - 2026-10-04
 
