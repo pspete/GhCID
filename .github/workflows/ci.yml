@@ -141,9 +141,9 @@ jobs:
         - name: WindowsPowerShell
           os: windows-latest
           shell: powershell
-        #- name: Linux
-        #  os: ubuntu-latest
-        #  shell: pwsh
+        - name: Linux
+          os: ubuntu-latest
+          shell: pwsh
         #- name: Mac
         #  os: macos-latest
         #  shell: pwsh
