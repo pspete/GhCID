@@ -1,8 +1,10 @@
 # Changelog
 
-## Unreleased
+## Unreleased (major)
 
-- N/A
+### Changed
+
+- First stable release: GitHub Release and PowerShell Gallery publishing via GitHub Actions.
 
 ## [0.1.0] - 2026-10-04
 
