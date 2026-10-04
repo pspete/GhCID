@@ -161,6 +161,18 @@ jobs:
       with:
         name: module
         path: ${{ env.MODULE_NAME }}
+    # Windows PowerShell 5.1 has no PSResourceGet; install.ps1 skips its ~60s bootstrap when the module is found.
+    # The key rolls monthly so a newer PSResourceGet is picked up.
+    - name: Cache Month
+      id: month
+      if: matrix.shell == 'powershell'
+      run: '"month=$(Get-Date -Format yyyy-MM)" >> $env:GITHUB_OUTPUT'
+    - name: Cache PSResourceGet
+      if: matrix.shell == 'powershell'
+      uses: actions/cache@v6
+      with:
+        path: ~/Documents/WindowsPowerShell/Modules/Microsoft.PowerShell.PSResourceGet
+        key: psresourceget-winps-${{ steps.month.outputs.month }}
     - name: Install Dependencies
       run: ./build/install.ps1
     - name: Test Built Module
