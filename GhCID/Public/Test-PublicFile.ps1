@@ -13,4 +13,4 @@ Function Test-PublicFile {
 		Write-Verbose "Scope: $Scope"
 		Test-PrivateFile -TestParam $Scope
 	}
-}
+} #
