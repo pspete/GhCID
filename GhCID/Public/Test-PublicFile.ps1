@@ -10,6 +10,7 @@ Function Test-PublicFile {
 		$Scope
 	)
 	Process {
+		Write-Verbose "Scope: $Scope"
 		Test-PrivateFile -TestParam $Scope
 	}
 }
