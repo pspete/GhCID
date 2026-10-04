@@ -24,6 +24,7 @@ Function Test-PrivateFile {
 		$TestParam
 	)
 	Process {
+		Write-Verbose "TestParam: $TestParam"
 		If ($IsCoreCLR) {
 			$SomeVar = 'SomeValue'
 		}

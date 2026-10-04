@@ -5,6 +5,7 @@
 ### Added
 
 - `Test-PublicFile` writes verbose output (vNext prerelease test).
+- `Test-PrivateFile` writes verbose output (second vNext prerelease test).
 
 ## [1.0.0] - 2026-10-04
 
