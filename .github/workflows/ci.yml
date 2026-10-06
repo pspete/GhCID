@@ -40,7 +40,7 @@ permissions:
 env:
   MODULE_NAME: GhCID
   # pspete.Build tag or branch cloned into ./build by each job.
-  BUILD_REF: v1
+  BUILD_REF: merge-format-type-files
   MODULE_GUID: 'e2a579a0-2f9f-4579-90ba-ee2f6b3ac0c1'
   GIT_USER_NAME: 'Pete Maan'
   RELEASE_VERSION_GATE: '1.0.0'
