@@ -2,7 +2,9 @@
 
 ## Unreleased
 
-- N/A
+### Added
+
+- Format and type files for `GhCIDItem` and `GhCID.Result`, to test the pspete.Build format and type merge.
 
 ## [1.1.0] - 2026-10-04
 
