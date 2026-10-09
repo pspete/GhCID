@@ -2,7 +2,9 @@
 
 ## Unreleased
 
-- N/A
+### Changed
+
+- CI caches CurrentUser PowerShell modules per job and leg, so Gallery downloads are skipped on a cache hit.
 
 ## [1.1.0] - 2026-10-04
 
